@@ -4651,7 +4651,7 @@ button:active {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 .countdown_timer{
     display: flex;
