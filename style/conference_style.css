@@ -82,7 +82,7 @@ p {
 
 .hall_home {
     /* margin-top: 22vh; */
-    padding: 0vh 5vw 0vw 5vw;
+    padding: 14vh 5vw 0vw 5vw;
 }
 
 .hall_home_home_top_link{
@@ -182,7 +182,7 @@ p {
     color: #FFFFFF;
     margin: 0% 0%;
     margin-top: 18vh;
-    width: 100%;
+    width: 105%;
 }
 
 .hall_home_right_top_cover::after {
@@ -4686,4 +4686,38 @@ button:active {
 }
 .hall_home_register_btn:hover{
     color: white;
+}
+
+/* Latest Event */
+.latest_event{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    width: 70%;
+    bottom: -93px;
+    background: #1881f7;
+    /* align-content: center; */
+    /* justify-items: center; */
+    /* justify-self: center; */
+    margin: 0px auto !important;
+    right: 15%;
+}
+.latest_event_div1{
+    display: flex;
+    flex-direction: column;
+    background-color: #1827ff;
+    padding: 20px 0px;
+}
+.latest_event_div1 p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+}
+.duel_div{
+    display: flex;
+    justify-content: space-around;
 }
