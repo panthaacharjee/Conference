@@ -165,7 +165,7 @@ p {
 
 
 .hall_home_right_top_cover {
-    height: 40vh;
+    height: 82vh;
     position: relative;
     display: flex;
     align-items: center;
@@ -181,7 +181,7 @@ p {
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0% 0%;
-    margin-top: 20vh;
+    margin-top: 18vh;
     width: 100%;
 }
 
