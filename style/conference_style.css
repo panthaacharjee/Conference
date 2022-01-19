@@ -82,7 +82,7 @@ p {
 
 .hall_home {
     /* margin-top: 22vh; */
-    padding: 14vh 5vw 0vw 5vw;
+    padding: 21vh 5vw 0vw 5vw;
 }
 
 .hall_home_home_top_link{
@@ -165,7 +165,7 @@ p {
 
 
 .hall_home_right_top_cover {
-    height: 82vh;
+    height: 88vh;
     position: relative;
     display: flex;
     align-items: center;
@@ -182,7 +182,7 @@ p {
     color: #FFFFFF;
     margin: 0% 0%;
     margin-top: 18vh;
-    width: 100%;
+    width: 101%;
 }
 
 .hall_home_right_top_cover::after {
@@ -4682,7 +4682,7 @@ button:active {
     font-size: 16px;
     border-radius: 8px;
     padding: 0px 43px;
-    margin-top: 57px;
+    margin-top: 13px;
 }
 .hall_home_register_btn:hover{
     color: white;
@@ -4695,13 +4695,12 @@ button:active {
     flex-direction: column;
     /* justify-content: center; */
     width: 70%;
-    bottom: -93px;
-    background: #1881f7;
-    /* align-content: center; */
-    /* justify-items: center; */
-    /* justify-self: center; */
+    bottom: -176px;
+    background: #fff;
+    border-bottom: 1px solid rgb(204, 204, 204);
     margin: 0px auto !important;
     right: 15%;
+    box-shadow: 1px 5px 12px 5px rgba(94, 94, 94, 0.411);
 }
 .latest_event_div1{
     display: flex;
@@ -4726,5 +4725,28 @@ button:active {
     justify-content: space-between;
     width: 30%;
     flex-direction: column;
-    margin: 0% 8%;
+    margin: 3% 8%;
+}
+.font_box{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin-right: 15px;
+}
+.duel_div a{
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+    color: red;
+}
+.duel_div a:hover{
+    color: black;
+}
+.d-flex{
+    margin-top: 20px;
 }
