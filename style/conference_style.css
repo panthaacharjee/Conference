@@ -4717,7 +4717,14 @@ button:active {
     font-weight: 500;
     font-style: normal;
 }
+.latest_event_div2{
+    display: flex;
+    justify-content: center;
+}
 .duel_div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 30%;
+    flex-direction: column;
+    margin: 0% 8%;
 }
