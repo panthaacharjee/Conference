@@ -4674,3 +4674,16 @@ button:active {
     margin-top: -25px;
     margin-right: 28px;
 }
+
+/* Hall Home Register Btn */
+.hall_home_register_btn{
+    color: white;
+    background-color: #007bff;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 0px 43px;
+    margin-top: 57px;
+}
+.hall_home_register_btn:hover{
+    color: white;
+}
