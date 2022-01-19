@@ -173,7 +173,7 @@ p {
     flex-direction: column;
     font-family: Roboto;
     font-style: normal;
-    font-weight: 900;
+    /* font-weight: 900; */
     font-size: 47px;
     line-height: 56px;
     text-align: center;
@@ -4658,17 +4658,19 @@ button:active {
 }
 .countdown_timer p{
     margin-right: 40px;
-    font-size: 40px;
+    font-size: 70px;
     margin-left: -5px;
+    color: rgba(255, 255, 255, 0.425);
 }
 /* .countdown_timer p:nth-child(2){
     margin-left: 10px;
 } */
 .timer_details span{
     font-size: 13px;
-    margin-right: 10px;
+    margin-right: 21px;
+    margin-left: 24px;
 }
 .timer_details{
-    margin-top: -33px;
-    margin-right: 16px;
+    margin-top: -25px;
+    margin-right: 28px;
 }
