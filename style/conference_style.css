@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: Roboto;
+    /* background-color: dar; */
 }
 
 html {
@@ -8,6 +9,7 @@ html {
     overflow-x: hidden;
 
 }
+
 
 p {
     margin-top: 0;
@@ -82,7 +84,7 @@ p {
 
 .hall_home {
     /* margin-top: 22vh; */
-    padding: 21vh 5vw 0vw 5vw;
+    padding: 32vh 5vw 0vw 5vw;
 }
 
 .hall_home_home_top_link{
@@ -2595,7 +2597,7 @@ button:active {
 .conference {
     margin: 40px 0px;
     padding: 30px 0px;
-    background-color: #F8FBFF;
+    /* background-color: #F8FBFF; */
 }
 .conference_vetenary{
     background-color: #1882FF;
@@ -3838,13 +3840,15 @@ button:active {
     display: flex;
     align-items: center;
     margin-top: 2rem;
+    
 }
 .event_content img{
     height: 138px;
     margin-right: 44px;
 }
 .schedule{
-    font-size: 18px;
+    font-size: 16px;
+    padding: 22px 0px;
 }
 
 /* Conference */
@@ -4695,12 +4699,12 @@ button:active {
     flex-direction: column;
     /* justify-content: center; */
     width: 70%;
-    bottom: -176px;
+    bottom: -247px;
     background: #fff;
     border-bottom: 1px solid rgb(204, 204, 204);
     margin: 0px auto !important;
     right: 15%;
-    box-shadow: 1px 5px 12px 5px rgba(94, 94, 94, 0.411);
+    box-shadow: 1px 5px 12px 5px rgba(94, 94, 94, 15%);
 }
 .latest_event_div1{
     display: flex;
@@ -4715,6 +4719,8 @@ button:active {
     font-family: Roboto;
     font-weight: 500;
     font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
 }
 .latest_event_div2{
     display: flex;
@@ -4749,4 +4755,44 @@ button:active {
 }
 .d-flex{
     margin-top: 20px;
+}
+
+/* event content */
+.event_content_conference{
+    background-color: rgba(241, 240, 240, 0.781);
+    height: 250px;
+    padding: 35px 10px;
+    border-left: 5px solid blue;
+}
+.event_content_conference img{
+    margin-left: 20px;
+}
+
+/* Registration Area */
+.registration_fee_div{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 20px 10px;
+    line-height: 47px;
+    margin-top: 20px;
+}
+.registration_fee_div:hover{
+    background-color: #1882FF;
+    color: #fff;
+}
+.registration_fee_p{
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: normal;
+}
+.registration_fee_div a{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    color: #1882FF;
+}
+.registration_fee_div:hover a{
+    color: #fff;
 }
