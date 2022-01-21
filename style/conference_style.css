@@ -167,7 +167,7 @@ p {
 
 
 .hall_home_right_top_cover {
-    height: 88vh;
+    height: 100vh;
     position: relative;
     display: flex;
     align-items: center;
@@ -183,7 +183,7 @@ p {
     text-transform: uppercase;
     color: #FFFFFF;
     margin: 0% 0%;
-    margin-top: 18vh;
+    margin-top: 2vh;
     width: 101%;
 }
 
@@ -1326,7 +1326,7 @@ p {
 }
 
 .library_person_single {
-    width: 24.5%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1510,7 +1510,7 @@ p {
         font-size: 26px !important;
         color: #FFFFFF;
         margin: -4% 0%;
-        height: 35vh;
+        height: 70vh;
     }
 
     .hall_home_right_top_cover p {
@@ -2530,14 +2530,14 @@ button:active {
     /* margin-left: -2px !IMPORTANT; */
 }
 .conference_left_p{
-    font-size: 32px;
+    font-size: 24px;
     font-family: Roboto;
     font-weight: bold;
     text-align: center;
 
 }
 .conference_left_p span{
-    color: #1882FF;
+    color: black;
 }
 .conference_campus_left p{
     font-size: 18px;
@@ -2679,7 +2679,7 @@ button:active {
     font-weight: 500!important;
     color: #fff;
     width: 150px;
-    background-color: #1882FF;
+    background-color: blue;
     padding: 8px 12px;
     margin: 10px;
     text-align: center;
@@ -2703,7 +2703,7 @@ button:active {
 
 @media screen and (max-width :520px) {
     .green_campus {
-        margin: 0px 0px;
+        margin: -100px 0px;
     }
 
     .green_campus_right img {
@@ -3689,7 +3689,7 @@ button:active {
 }
 .faculty_right_agriculture {
     padding: 4% 3%;
-    margin-top: 2rem;
+    margin-top: -3rem;
 }
 .explore_agriculture_right{
     display: flex;
@@ -3774,7 +3774,7 @@ button:active {
     .active {
         display: flex;
         flex-direction: column;
-        width: 84%;
+        width: 100%;
         justify-content: center;
         align-items: center;
     }
@@ -3800,8 +3800,12 @@ button:active {
       padding: 10px 23px;
       border: 1px solid black;
   }
+  .tablinks:hover{
+    background-color: blue;
+    color: #fff;
+  }
   .tablinks.active{
-    background-color: #1882FF;
+    background-color: blue;
     color: #fff;
    }
    .tablinks_day {
@@ -3813,11 +3817,11 @@ button:active {
     }
 
 .tablinks_date{
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Roboto';
     font-weight: bold;
     font-style: normal;
-    text-align: center;
+    /* text-align: center; */
 }
 .event_schedule{
     text-align: center;
@@ -3840,7 +3844,9 @@ button:active {
     display: flex;
     align-items: center;
     margin-top: 2rem;
+    background-color: rgb(241, 241, 241);
     
+    border-left: 3px solid blue;
 }
 .event_content img{
     height: 138px;
@@ -4513,40 +4519,47 @@ button:active {
 .event_faq_p span{
     font-weight: 500;
 }
-.tablinks{
-    /* border-radius: 5px; */
+.tablinks_event{
     margin: 5.5% 0%;
+    border: 1px solid #000;
+    padding: 10px 20px;
 }
-.tablinks:hover{
-    background-color: #187AF1;
+.tablinks_event:hover{
+    background-color: blue;
     border: 1px solid #fff;
 }
-.tablinks:hover button{
-    background-color: #187AF1;
-    color: #fff;
-}
-.tablinks button{
+
+.tablinks_event a{
     font-size: 16px;
     font-family: Roboto;
     font-weight: 300;
     font-style: normal;
     color: #000;
-    background-color: #fff;
+    /* background-color: #fff; */
     border: none
 }
-.tablinks.actve{
-    background-color: #187AF1;
+.tablinks_event.actve{
+    background-color: blue;
+}
+.tablinks_event.actve a, i{
+   color: #fff;
 }
 .actve{
     background-color: #187AF1;
 }
-.tablinks.actve button{
+.tablinks_event.actve button{
     background-color: #187af100;
     color: #fff;
 }
-.tablinks i {
+.tablinks_event i {
     margin-right: 10px;
     color: #000;
+}
+.tabcontent_event{
+    display: none;
+}
+.actv{
+    display: block ;
 }
 .slide{
     border: 1px solid rgb(31, 30, 30);
@@ -4566,88 +4579,6 @@ button:active {
 }
 
 
-
-
-
-/* Navigation */
-.third-level-menu
-{
-    position: absolute;
-    top: 0;
-    right: -150px;
-    width: 150px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
-}
-
-.third-level-menu > li
-{
-    height: 30px;
-    background: #999999;
-}
-.third-level-menu > li:hover { background: #CCCCCC; }
-
-.second-level-menu
-{
-    position: absolute;
-    top: 30px;
-    left: 0;
-    width: 150px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none;
-}
-
-.second-level-menu > li
-{
-    position: relative;
-    height: 30px;
-    background: #999999;
-}
-.second-level-menu > li:hover { background: #CCCCCC; }
-
-.top-level-menu
-{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.top-level-menu > li
-{
-    position: relative;
-    float: left;
-    height: 30px;
-    /* width: 120px; */
-    /* background: #999999; */
-    padding: 0px 10px;
-}
-.top-level-menu > li:hover { border-bottom:1px solid #000; }
-
-.top-level-menu li:hover > ul
-{
-    /* On hover, display the next level's menu */
-    display: inline;
-}
-
-
-/* Menu Link Styles */
-
-.top-level-menu a /* Apply to all links inside the multi-level menu */
-{
-    font: bold 14px Arial, Helvetica, sans-serif;
-    color: #000;
-    text-decoration: none;
-    padding: 0 0 0 10px;
-
-    /* Make the link cover the entire list item-container */
-    display: block;
-    line-height: 30px;
-}
-.top-level-menu a:hover { color: #000000; }
 
 /* Countdown Timer */
 .timer{
@@ -4699,7 +4630,7 @@ button:active {
     flex-direction: column;
     /* justify-content: center; */
     width: 70%;
-    bottom: -247px;
+    bottom: -200px;
     background: #fff;
     border-bottom: 1px solid rgb(204, 204, 204);
     margin: 0px auto !important;
@@ -4709,7 +4640,7 @@ button:active {
 .latest_event_div1{
     display: flex;
     flex-direction: column;
-    background-color: #1827ff;
+    background-color: blue;
     padding: 20px 0px;
 }
 .latest_event_div1 p{
@@ -4740,15 +4671,18 @@ button:active {
     height: 50px;
     text-align: center;
     font-size: 30px;
-    color: red;
+    color: blue;
     margin-right: 15px;
+}
+.font_box i{
+    color: blue;
 }
 .duel_div a{
     font-size: 18px;
     font-family: Roboto;
     font-weight: 500;
     font-style: normal;
-    color: red;
+    color: blue;
 }
 .duel_div a:hover{
     color: black;
@@ -4760,7 +4694,7 @@ button:active {
 /* event content */
 .event_content_conference{
     background-color: rgba(241, 240, 240, 0.781);
-    height: 250px;
+    /* height: 250px; */
     padding: 35px 10px;
     border-left: 5px solid blue;
 }
@@ -4777,7 +4711,7 @@ button:active {
     margin-top: 20px;
 }
 .registration_fee_div:hover{
-    background-color: #1882FF;
+    background-color: blue;
     color: #fff;
 }
 .registration_fee_p{
@@ -4795,4 +4729,472 @@ button:active {
 }
 .registration_fee_div:hover a{
     color: #fff;
+}
+
+
+/* Event Shedule */
+.highlights_components {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* background: #EDEDED; */
+    border-bottom: 1px solid rgb(202, 202, 202);
+    margin-top: 20px;
+}
+.highlights_components p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: justify;
+    letter-spacing: 0.01em;
+    padding: 10px;
+    padding-right: 25% !important;
+    color: #000000;
+}
+
+
+/* Navigation */
+.nav_main {
+    align-items: center;
+}
+
+.right_nav {
+    display: block !important;
+    padding-left: 10%;
+}
+.right_nav ul{
+    display: flex;
+    list-style: none;
+}
+.right_nav ul li{
+    width: 100%;
+}
+.right_nav ul li a{
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #153E90;
+    padding: 8px 22px;
+    border-radius: 40px;
+}
+.right_nav .dropdown{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    /* visibility: hidden; */
+    top:60px;
+    z-index: -1;
+    /* left: 0; */
+}
+
+@media screen and (max-width: 520px) {
+    .left_nav {
+        /* flex: 4; */
+        display: flex;
+        align-items: start;
+        /* padding-left: 5%; */
+        text-decoration: none !important;
+        margin-top: 7px;
+    }
+}
+.header-logo-menu{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 111111;
+    top:0;
+    height: 120px;
+}
+.left_nav{
+    margin-top: 10px;
+}
+.arrow_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.arrow_next img{
+    padding: 10px 15px;
+    border-radius: 50%;
+    background-color: #141414;
+}
+.arrow_prev img{
+    padding: 10px 15px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+}
+.arrow_prev{
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 520px) {
+    .header-logo-menu {
+        position: relative;
+        height: 70px;
+    }
+    .left_nav {
+ 
+        justify-content: center;
+       
+    }
+    .event_content{
+      flex-direction: column;
+        
+    }
+    .schedule {
+        font-size: 14px;
+        padding: 22px 0px;
+        text-align: justify;
+    }
+    .conference {
+        margin-top: 56px;
+    
+    }
+    .regi_criteria{
+        margin-top: -45px;
+    }
+    .tablinks {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 10px 23px;
+        border: 1px solid black;
+        justify-content: space-around;
+    }
+    .tablinks.active{
+        text-align: left;
+    }
+    .latest_event {
+        position: relative;
+        width: 90%;
+        bottom: 0px;
+        background: #fff;
+        border-bottom: 1px solid rgb(204, 204, 204);
+        margin: 0px auto !important;
+        right: 0%;
+        top: 40px;
+        box-shadow: 1px 5px 12px 5px rgb(197 195 195 / 15%);
+    }
+    .latest_event_div2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* align-items: center; */
+        padding-bottom: 20px;
+    }
+    .duel_div {
+
+        width: 100%;
+     
+    }
+    .registration_fee_p {
+        font-size: 18px;
+    }
+    .registration_fee_div a {
+        font-size: 14px;
+    
+    }
+    .highlights_components p {
+        font-size: 18px;
+    }
+    .event_faq_p {
+        font-size: 18px;
+        margin-bottom: 15px;
+        margin-top: 50px;
+    }
+    .arrow_prev img {
+        padding: 6px 11px;
+        border-radius: 50%;
+        background-color: #d3d3d3;
+    }
+    .arrow_next img {
+        padding: 6px 11px;
+        border-radius: 50%;
+    }
+}
+.highlights_components .span{
+    /* margin-left: 20px; */
+    font-size: 18px;
+    color: blue;
+}
+.hall_home_right_top_cover_p{
+    margin-top: 87px;
+}
+
+
+/* Member */
+/*  Member number btn */
+.faculty_name_btn{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+    border:1px solid #007bff;
+    /* padding: 8px 42px; */
+    margin: 20px;
+}
+.faculty_name_btn:hover{
+    background-color: #007bff;
+    color: #fff;
+}
+.faculty_name_btn_box{
+    margin: 30px 3px;
+    background-color: #007bff;
+    border: none !important;
+}
+
+.tooltip-inner{
+    background-color: rgb(110, 0, 0);
+    height: 60px;
+    width: 300px;
+    border: 1px solid blue;
+    color: #000 !important;
+    padding: 0!important;
+    display: flex;
+    font-size: 14px;
+}
+
+@media screen and (max-height:800px) {
+    #small-dialog{
+        padding: 0px 30px;
+    }
+    .sau_dialog h1{
+        font-size: 24px;
+        margin-bottom: 22px;
+    }
+    .sau_dialog a{
+        width: 256px;
+        padding: 0px 30px;
+    }
+    .mfp-close{
+        font-size: 32px;
+    }
+}
+
+
+
+.library_person_single_img {
+    padding: 10%;
+    border: 1px solid black;
+    margin-left: 10px;
+}
+.library_person_single img {
+    width: 100%;
+    box-shadow: 3px 3px 9px 3px rgb(12 12 12 / 5%);
+}
+@media screen and (max-width: 520px) {
+    .faculty_member_person_top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 2.2vh 2vh;
+    }
+    .faculty_name_btn {
+        margin-left: 27px;
+    }
+    .faculty_name_position {
+       
+        margin-left: 14px;
+    }
+    .faculty_agriculture_box {
+        margin-left: 18px;
+    }
+    .contentBx {
+        margin-left: 18px;
+    }
+    .faculty_home_right_top_cover {
+
+       
+        margin-left: 18px;
+    }
+}
+.t_details{
+    padding: 0 !important;
+    margin-left: 11px;
+}
+@media screen and (max-width: 1370px) {
+    .faculty_home_right_top_cover {
+        /* background: url(../image/campus_offer_img7.png); */
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        padding: 8% 0%;
+        color: #FFFFFF;
+        width: 100%;
+        margin-top: 17px;
+    }
+    
+}
+@media screen and (max-width: 520px) {
+    .t_discription {
+        margin-left: 18px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .faculty_membar_top_link {
+        padding: 17px 0px 0px;
+        font-size: 12px;
+    }
+    .faculty_member_person_main{
+        margin-left: 1px;
+        margin-top: -24px;
+    }
+    .faculty_member_image__img {
+        width: 66%;
+        margin-left: 37px;
+    }
+    .faculty_member_image__overlay{
+        width: 65%;
+        margin-left: 16px;
+    }
+    .faculty_member_image__overlay--secondery {
+        border-radius: 50%;
+        width: 144px !important;
+    }
+    .faculty_name_person{
+        font-size: 18px;
+        margin-left: 16px;
+    }
+    .faculty_member_pagination {
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .label{
+        padding: 5px!important;
+        font-size: 14px;
+    }
+    .faculty_home_right_top_cover{
+        margin-top: -7px;
+    }
+}
+/* Faculty Pagination */
+.faculty_member_pagination{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:520px) {
+    .faculty_home_top_cover{
+        margin-top: 9.5vh;
+        font-size: 18px;
+        padding: 20% 0%;
+    }
+}
+
+
+/* Sau Link */
+.sau_link{
+    font-size: 14px;
+    font-family: Roboto;
+    font-style: normal;
+    /* margin-top: 2px; */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.sau_link a{
+    color: white !important;
+}
+.sau_link a:hover{
+    color: #187AF1 !important;
+}
+@media screen  and (max-width:520px) {
+    .sau_link{
+        line-height: 10px;
+        width: 90%;
+    }
+    .sau_link p{
+        line-height: 22px !important;
+        font-size: 8px!important;
+        margin-left: -12px;
+    }
+    .sau_link a{
+        font-size: 8px !important;
+    }
+    
+}
+
+
+/*  */
+.sau_library_btn {
+    position: fixed;
+    overflow: hidden;
+    position: fixed;
+    top: 63vh;
+    right: 0;
+    margin-right: 10%;
+    margin: 1%;
+    display: none;
+    /* border-radius: 10px; */
+    /* height: 63px;
+    width: 66px; */
+    /* box-shadow: 0px 4px 16px rgb(0 0 0 / 52%); */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* color: #fff;
+    background: white; */
+    /* border: 2px solid #153E90; */
+    /* text-decoration: none !important; */
+    /* font-weight: bold; */
+    /* text-align: center; */
+    
+}
+
+.sau_dialog h1 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 36px;
+    margin-top: 20px;
+}
+
+.sau_library_btn img {
+    width: 92px;
+    height: 89px;
+    /* box-shadow: 0px 0px 4px 16px rgb(0 0 0 / 52%); */
+
+}
+.sau_dialog a {
+    background: white;
+    padding: 6px 30px;
+    margin: 5px 0px;
+    text-decoration: none;
+    color: #000;
+    width: 360px;
+    text-align: center;
+    border: 2px solid #007bff;
+}
+@media screen and (max-width:380px) {
+    .sau_dialog a{
+        width: 280px;
+    }
+    .sau_dialog a:hover{
+        background-color: #007bff;
+    }
+}
+.mfp-close{
+    color: #000;
 }

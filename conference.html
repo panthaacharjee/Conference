@@ -13,6 +13,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Slick -->
     <link rel="stylesheet" href="./slick1/slick.css">
+    <link rel="stylesheet" href="./slick/slick.css">
     <!--- Bootstrap -->
     <link rel="stylesheet" href="./bootstrap-4.6.0-dist/css/bootstrap.css">
     <!-- Optional theme -->
@@ -20,6 +21,9 @@
     <link rel="icon" href="./image/sau_logo.png" type="image/gif" sizes="16x16">
     <!-- Latest compiled and minified JavaScript -->
     <link rel="stylesheet" href="./style/conference_style.css">
+    <link rel="stylesheet" href="nav1.css">
+    <link rel="stylesheet" href="./css/plugins.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="./style/nav.css">
     <link rel="stylesheet" href="./style/footer.css">
     <link rel="stylesheet" href="./style/magbetic_popup.css">
@@ -29,10 +33,16 @@
 
 <body>
 
-    <!-- nav section start  -->
-    <section class="nav" id="nav">
-        <div class="nav_main" >
-            <div class="left_nav">
+   
+
+
+   
+ <!--Main Wrapper Start-->
+        
+ <div class="header-logo-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-12">
                 <a class="left_nav" href="./index.html">
                     <img src="./image/sau_logo.png" alt="logo" />
                     <div>
@@ -40,23 +50,287 @@
                         <p class="logo_text_bd logo_text">BANGLADESH</p>
                     </div>
                 </a>
-                <!-- <img class="mujiblogo" src="./image/mujib_100_logo2.png" alt="">
-                <img class="mujiblogo logo3" src="./image/logo3.png" alt=""> -->
+
             </div>
-            <div class="right_nav">
-                
+            <div class="col-lg-8 col-12">
+                <div class="mainmenu-area pull-right">
+                    <div class="mainmenu d-none d-lg-block">
+                        <nav>
+                            <ul id="nav">
+                                <li class="current"><a href="index.html">Home</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="index.html">Slider Style 1</a></li>
+                                        <li><a href="index-2.html">Slider Style 2</a></li>
+                                        <li><a href="index-3.html">Background Image</a></li>
+                                        <li><a href="index-4.html">Image Overlay Light</a></li>
+                                        <li><a href="index-5.html">Image Overlay Dark</a></li>
+                                        <li><a href="index-6.html">Menu With Slider</a></li>
+                                        <li><a href="index-7.html">Menu With Image</a></li>
+                                        <li><a href="index-8.html">Menu With Overlay</a></li>
+                                        <li><a href="index-9.html">Video Background</a></li>
+                                        <li><a href="index-10.html">Fixed Image</a></li>
+                                        <li><a href="index-11.html">Overlay Fixed Image</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="courses.html">Courses</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="courses-details.html">Courses Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="index.html">Features</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Sliders<i class="zmdi zmdi-chevron-right"></i></a>
+                                            <ul class="inside-menu">
+                                                <li><a href="slider-style-1.html">Slider Style 1</a></li>
+                                                <li><a href="slider-style-2.html">Slider Style 2</a></li>
+                                                <li><a href="slider-style-3.html">Slider Style 3</a></li>
+                                                <li><a href="background-image.html">Image Background </a></li>
+                                                <li><a href="image-overlay-light.html">Overlay Light </a></li>
+                                                <li><a href="image-overlay-dark.html">Overlay Dark </a></li>
+                                                <li><a href="video-background.html">Video Background </a></li>
+                                                <li><a href="fixed-image.html">Fixed Image</a></li>
+                                                <li><a href="overlay-fixed-image.html">Overlay Fixed Image</a></li>
+                                                <li><a href="text-animation-1.html">Text Animation 1 </a></li>
+                                                <li><a href="text-animation-2.html">Text Animation 2 </a></li>
+                                                <li><a href="text-animation-3.html">Text Animation 3 </a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Menu Style<i class="zmdi zmdi-chevron-right"></i></a>
+                                            <ul class="inside-menu">
+                                                <li><a href="theme-menu-1.html">Theme Menu 1</a></li>
+                                                <li><a href="theme-menu-2.html">Theme Menu 2</a></li>
+                                                <li><a href="theme-menu-3.html">Theme Menu 3</a></li>
+                                                <li><a href="without-top-bar.html">Without Top Bar</a></li>
+                                                <li><a href="menu-center.html">Menu Center</a></li>
+                                                <li><a href="menu-transparent.html">Transparent</a></li>
+                                                <li><a href="menu-semi-transparent.html">Semi Transparent</a></li>
+                                                <li><a href="menu-dark.html">Menu Dark</a></li>
+                                                <li><a href="borderd-menu.html">Menu Border</a></li>
+                                                <li><a href="menu-top-border.html">Top Border Hover</a></li>
+                                                <li><a href="menu-sticky.html">Menu Sticky</a></li>
+                                                <li><a href="menu-non-sticky.html">Menu Non Sticky</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Page Title<i class="zmdi zmdi-chevron-right"></i></a>
+                                            <ul class="inside-menu">
+                                                <li><a href="breadcrumb-dark.html">Title Dark</a></li>
+                                                <li><a href="breadcrumb-fixed.html">Title Fixed</a></li>
+                                                <li><a href="breadcrumb-image.html">Title Image</a></li>
+                                                <li><a href="breadcrumb-transparent.html">Title Transparent</a></li>
+                                                <li><a href="breadcrumb-left.html">Title Left</a></li>
+                                                <li><a href="breadcrumb-right.html">Title Right</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Footer Style<i class="zmdi zmdi-chevron-right"></i></a>
+                                            <ul class="inside-menu">
+                                                <li><a href="footer-style-1.html">Footer Style 1</a></li>
+                                                <li><a href="footer-style-2.html">Footer Style 2</a></li>
+                                                <li><a href="footer-style-3.html">Footer Style 3</a></li>
+                                                <li><a href="footer-style-4.html">Footer Style 4</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="index.html">Shortcode</a>
+                                    <!-- Mega Menu -->
+                                    <div class="mega-menu mm-5-column">
+                                        <div class="col-4 pull-left pl-20">
+                                            <h3>Shortcode List</h3>
+                                            <a href="shortcode-course.html">Courses</a>
+                                            <a href="shortcode-event.html">Event</a>
+                                            <a href="shortcode-latest-news.html">Latest News</a>
+                                            <a href="shortcode-product.html">Product</a>
+                                            <a href="shortcode-testimonial.html">Testimonial</a>
+                                        </div>
+                                        <div class="col-4 pull-left">
+                                            <h3>Shortcode List</h3>
+                                            <a href="shortcode-contact-form.html">Contact Form</a>
+                                            <a href="shortcode-map.html">Map</a>
+                                            <a href="shortcode-facts.html">Facts</a>
+                                            <a href="image-gallery.html">Image Gallery</a>
+                                            <a href="video-gallery.html">Video Gallery</a>
+                                        </div>
+                                        <div class="col-4 pull-left">
+                                            <h3>Shortcode List</h3>
+                                            <a href="shortcode-alerts.html">Alerts</a>
+                                            <a href="shortcode-button.html">Button</a>
+                                            <a href="shortcode-breadcrumbs.html">Breadcrumb</a>
+                                            <a href="shortcode-dropdown.html">Dropdown</a>
+                                            <a href="shortcode-pagination.html">Pagination</a>
+                                        </div>
+                                        <div class="col-4 pull-left">
+                                            <h3>Shortcode List</h3>
+                                            <a href="shortcode-progressbar.html">Progressbar</a>
+                                            <a href="text-animation-1.html">Text Animation 1</a>
+                                            <a href="text-animation-2.html">Text Animation 2</a>
+                                            <a href="text-animation-3.html">Text Animation 3</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="index.html">Pages</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="about.html">About Us</a></li>
+                                        <li><a href="courses.html">Courses Page</a></li>
+                                        <li><a href="courses-details.html">Course Details Page</a></li>
+                                        <li><a href="event.html">Event Page</a></li>
+                                        <li><a href="event-details.html">Event Details Page</a></li>
+                                        <li><a href="latest-news.html">Latest News Page</a></li>
+                                        <li><a href="news-details.html">News Details Page</a></li>
+                                        <li><a href="shop-grid.html">Shop Page</a></li>
+                                        <li><a href="product-details.html">Product Details Page</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="login-register.html">Login Register</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="shop-grid.html">Shop</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="product-details.html">Product Details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                  
+                  
+                </div> 
             </div>
-
         </div>
+    </div>
+</div>  
+<!-- Mobile Menu Area start -->
+<div class="mobile-menu-area">
+    <div class="container clearfix">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <div class="mobile-menu">
+                    <nav id="dropdown">
+                        <ul>
+                            <li><a href="index.html">HOME</a>
+                                <ul>
+                                    <li><a href="index.html">Slider Style 1</a></li>
+                                    <li><a href="index-2.html">Slider Style 2</a></li>
+                                    <li><a href="index-3.html">Background Image</a></li>
+                                    <li><a href="index-4.html">Image Overlay Light</a></li>
+                                    <li><a href="index-5.html">Image Overlay Dark</a></li>
+                                    <li><a href="index-6.html">Menu With Slider</a></li>
+                                    <li><a href="index-7.html">Menu With Image</a></li>
+                                    <li><a href="index-8.html">Menu With Overlay</a></li>
+                                    <li><a href="index-9.html">Video Background</a></li>
+                                    <li><a href="index-10.html">Fixed Image</a></li>
+                                    <li><a href="index-11.html">Overlay Fixed Image</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="courses.html">Courses</a>
+                                <ul class="sub-menu">
+                                    <li><a href="courses-details.html">Courses Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="shop-grid.html">Shop</a>
+                                <ul class="sub-menu">
+                                    <li><a href="product-details.html">Product Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="event.html">Event</a>
+                                <ul class="sub-menu">
+                                    <li><a href="event-details.html">Event Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="index.html">Shortcode</a>
+                                <ul class="sub-menu">
+                                    <li><a href="shortcode-course.html">Courses</a></li>
+                                    <li><a href="shortcode-event.html">Event</a></li>
+                                    <li><a href="shortcode-latest-news.html">Latest News</a></li>
+                                    <li><a href="shortcode-product.html">Product</a></li>
+                                    <li><a href="shortcode-testimonial.html">Testimonial</a></li>
+                                    <li><a href="shortcode-contact-form.html">Contact Form</a></li>
+                                    <li><a href="shortcode-map.html">Map</a></li>
+                                    <li><a href="shortcode-facts.html">Facts</a></li>
+                                    <li><a href="image-gallery.html">Image Gallery</a></li>
+                                    <li><a href="video-gallery.html">Video Gallery</a></li>
+                                    <li><a href="shortcode-alerts.html">Alerts</a></li>
+                                    <li><a href="shortcode-button.html">Button</a></li>
+                                    <li><a href="shortcode-breadcrumbs.html">Breadcrumb</a></li>
+                                    <li><a href="shortcode-dropdown.html">Dropdown</a></li>
+                                    <li><a href="shortcode-pagination.html">Pagination</a></li>
+                                    <li><a href="shortcode-progressbar.html">Progressbar</a></li>
+                                    <li><a href="text-animation-1.html">Text Animation 1</a></li>
+                                    <li><a href="text-animation-2.html">Text Animation 2</a></li>
+                                    <li><a href="text-animation-3.html">Text Animation 3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="latest-news.html">Latest News</a>
+                                <ul class="sub-menu">
+                                    <li><a href="news-details.html">News Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="index.html">Features</a>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Sliders</a>
+                                        <ul>
+                                            <li><a href="slider-style-1.html">Slider Style 1</a></li>
+                                            <li><a href="slider-style-2.html">Slider Style 2</a></li>
+                                            <li><a href="slider-style-3.html">Slider Style 3</a></li>
+                                            <li><a href="background-image.html">Image Background </a></li>
+                                            <li><a href="image-overlay-light.html">Overlay Light </a></li>
+                                            <li><a href="image-overlay-dark.html">Overlay Dark </a></li>
+                                            <li><a href="video-background.html">Video Background </a></li>
+                                            <li><a href="fixed-image.html">Fixed Image</a></li>
+                                            <li><a href="overlay-fixed-image.html">Overlay Fixed Image</a></li>
+                                            <li><a href="text-animation-1.html">Text Animation 1 </a></li>
+                                            <li><a href="text-animation-2.html">Text Animation 2 </a></li>
+                                            <li><a href="text-animation-3.html">Text Animation 3 </a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Menu Style</a>
+                                        <ul>
+                                            <li><a href="theme-menu-1.html">Theme Menu 1</a></li>
+                                            <li><a href="theme-menu-2.html">Theme Menu 2</a></li>
+                                            <li><a href="theme-menu-3.html">Theme Menu 3</a></li>
+                                            <li><a href="without-top-bar.html">Without Top Bar</a></li>
+                                            <li><a href="menu-center.html">Menu Center</a></li>
+                                            <li><a href="menu-transparent.html">Transparent</a></li>
+                                            <li><a href="menu-semi-transparent.html">Semi Transparent</a></li>
+                                            <li><a href="menu-dark.html">Menu Dark</a></li>
+                                            <li><a href="borderd-menu.html">Menu Border</a></li>
+                                            <li><a href="menu-top-border.html">Top Border Hover</a></li>
+                                            <li><a href="menu-sticky.html">Menu Sticky</a></li>
+                                            <li><a href="menu-non-sticky.html">Menu Non Sticky</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Page Title</a>
+                                        <ul>
+                                            <li><a href="breadcrumb-dark.html">Title Dark</a></li>
+                                            <li><a href="breadcrumb-fixed.html">Title Fixed</a></li>
+                                            <li><a href="breadcrumb-image.html">Title Image</a></li>
+                                            <li><a href="breadcrumb-transparent.html">Title Transparent</a></li>
+                                            <li><a href="breadcrumb-left.html">Title Left</a></li>
+                                            <li><a href="breadcrumb-right.html">Title Right</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Footer Style</a>
+                                        <ul>
+                                            <li><a href="footer-style-1.html">Footer Style 1</a></li>
+                                            <li><a href="footer-style-2.html">Footer Style 2</a></li>
+                                            <li><a href="footer-style-3.html">Footer Style 3</a></li>
+                                            <li><a href="footer-style-4.html">Footer Style 4</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="login-register.html">Login Register</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </nav>
+                </div>					
+            </div>
         </div>
-    </section>
-
-    <!-- nav section end  -->
-
-
-
-   
-
+    </div>
+</div>
+<!-- Mobile Menu Area end -->    
+</header>
 
 
     <!-- nav bar start  -->
@@ -301,34 +575,34 @@
 <!-- Key Not end  -->
      <!-- Registration fees start  -->
 
-        <section class="conference">
+        <section class="conference regi_criteria">
             <div class="conference_main container">
                 <div class="row green_row_registration">
                     <div class="col-md-12">
                         <p class="conference_left_p"><!--<img src="./image/CONFERENCE.png"/>--><span> REGISTRATION CRITERIA</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6 ">
                         <div class="registration_fee_div">
                         <p class="registration_fee_p">For Student</p>
                         <p>৳100 fee</p>
                         <a href="#">Register Now</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <div class="registration_fee_div">
                         <p class="registration_fee_p">For Student</p>
                         <p>৳100 fee</p>
                         <a href="#">Register Now</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <div class="registration_fee_div">
                         <p class="registration_fee_p">For Student</p>
                         <p>৳100 fee</p>
                         <a href="#">Register Now</a>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-6">
                         <div class="registration_fee_div">
                         <p class="registration_fee_p">For Student</p>
                         <p>৳100 fee</p>
@@ -342,7 +616,7 @@
 
 <!-- Registration fees end  -->
 
- <!-- faculty start  -->
+ <!-- Event Shedule  -->
  <section class="faculty" id="faculty">
     <div class="faculty_main container">
         <div class="row faculty_main_row">
@@ -351,7 +625,7 @@
                 </div>
                 <div class="personal_information_left col-md-12">
                     <div class="personal_information_left_link_box">
-                        <div class="tablinks active" onclick="tab(event, 'agriculture')">
+                        <div class="tablinks" onclick="tab(event, 'agriculture')" id="defaultOpen">
                             <div class="tablinks_day">01</div>
                             <div class="tablinks_date">
                                 <p>Day 1</p>
@@ -389,36 +663,159 @@
                         
                     </div>
                 </div>
+
                 <div class="faculty_right_agriculture col-md-12">
                     <div id="agriculture" class="tabcontent active">
-                       <div class="col-md-12 event_detail">
-                           <h4>DAY 1 HALL 1 - Lesson 1</h4>
-                       </div>
-                       <div class="event_content col-md-12">
-                            <img src="./image/faculty_member_person.png" alt="./image/faculty_member_person.png">
-                            <div class="schedule">
-                                <p class="text-primary">08:00am - 10:00pm</p><br/>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus aliquam et elementum duis sit amet aliquam eget. In vulputate at sollicitudin habitant. Sed ut egestas pellentesque sit faucibus. Sit mus suspendisse in massa. Ut maecenas eget lorem quam metus sit phasellus ut.</p><br/>
-                                <p class="text-primary">Speaker Pronojit Kumar Das</p>
+                        <div class="highlights">
+                            <a data-toggle="collapse" href="#collapseExample" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                <div class="highlights_components">
+                                    <p>DAY 1 HALL 1 - Lesson 1 </p>
+                                    <p class="span">08:00am - 10:00pm</p>
+                                    <!-- <img src="./image/hightlights_arrow.png" alt=""> -->
+                                </div>
+                            </a>
+                            <div class="collapse" id="collapseExample">
+                                <div class="highlights_collapse_component">
+                                    <div class="event_content col-md-12">
+                                        <img src="./image/faculty_member_person.png" alt="./image/faculty_member_person.png">
+                                        <div class="schedule">
+                                            <p class="text-primary">08:00am - 10:00pm</p><br/>
+                                            <p class="mb-2">Title</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus aliquam et elementum duis sit amet aliquam eget. In vulputate at sollicitudin habitant. Sed ut egestas pellentesque sit faucibus. Sit mus suspendisse in massa. Ut maecenas eget lorem quam metus sit phasellus ut.</p><br/>
+                                            <p class="text-primary">Speaker Pronojit Kumar Das</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_content col-md-12">
+                                        <img src="./image/faculty_member_person.png" alt="./image/faculty_member_person.png">
+                                        <div class="schedule">
+                                            <p class="text-primary">08:00am - 10:00pm</p><br/>
+                                            <p class="mb-2">Title</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus aliquam et elementum duis sit amet aliquam eget. In vulputate at sollicitudin habitant. Sed ut egestas pellentesque sit faucibus. Sit mus suspendisse in massa. Ut maecenas eget lorem quam metus sit phasellus ut.</p><br/>
+                                            <p class="text-primary">Speaker Pronojit Kumar Das</p>
+                                        </div>
+                                    </div>
+                                    <div class="event_content col-md-12">
+                                        <img src="./image/faculty_member_person.png" alt="./image/faculty_member_person.png">
+                                        <div class="schedule">
+                                            <p class="text-primary">08:00am - 10:00pm</p><br/>
+                                            <p class="mb-2">Title</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus aliquam et elementum duis sit amet aliquam eget. In vulputate at sollicitudin habitant. Sed ut egestas pellentesque sit faucibus. Sit mus suspendisse in massa. Ut maecenas eget lorem quam metus sit phasellus ut.</p><br/>
+                                            <p class="text-primary">Speaker Pronojit Kumar Das</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
                             </div>
-                       </div>
+    
+                            
+    
+    
+                            <a data-toggle="collapse" href="#collapseExample2" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                <div class="highlights_components">
+                                    <p>DAY 2 HALL 1 - Lesson 2</p>
+                                    <p class="span">08:00am - 10:00pm</p>
+                                    
+                                </div>
+                            </a>
+                            <div class="collapse" id="collapseExample2">
+                                <div class="highlights_collapse_component">
+                                    <div class="event_content col-md-12">
+                                        <img src="./image/faculty_member_person.png" alt="./image/faculty_member_person.png">
+                                        <div class="schedule">
+                                            <p class="text-primary">08:00am - 10:00pm</p><br/>
+                                            <p class="mb-2">Title</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus aliquam et elementum duis sit amet aliquam eget. In vulputate at sollicitudin habitant. Sed ut egestas pellentesque sit faucibus. Sit mus suspendisse in massa. Ut maecenas eget lorem quam metus sit phasellus ut.</p><br/>
+                                            <p class="text-primary">Speaker Pronojit Kumar Das</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+    
+    
+                            <a data-toggle="collapse" href="#collapseExample3" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                <div class="highlights_components">
+                                    <p>DAY 2 HALL 4 - Lesson 3 </p>
+                                    <p class="span">08:00am - 10:00pm</p>
+                                  
+                                </div>
+                            </a>
+                            <div class="collapse" id="collapseExample3">
+                                <div class="highlights_collapse_component">
+                                    <div class="event_content col-md-12">
+                                        <img src="./image/faculty_member_person.png" alt="./image/faculty_member_person.png">
+                                        <div class="schedule">
+                                            <p class="text-primary">08:00am - 10:00pm</p><br/>
+                                            <p class="mb-2">Title</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus aliquam et elementum duis sit amet aliquam eget. In vulputate at sollicitudin habitant. Sed ut egestas pellentesque sit faucibus. Sit mus suspendisse in massa. Ut maecenas eget lorem quam metus sit phasellus ut.</p><br/>
+                                            <p class="text-primary">Speaker Pronojit Kumar Das</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+    
+                           
+                        </div>
+                       
                     </div>
                    
                     <div id="notice" class="tabcontent">
-                        <div class="col-md-12 event_detail">
-                            <h4>DAY 2 HALL 1 - Lesson 2</h4>
-                        </div>
-                        <div class="event_content col-md-12">
-                            <img src="./image/faculty_member_person.png" alt="./image/faculty_member_person.png">
-                            <div class="schedule">
-                                <p class="text-primary">08:00am - 10:00pm</p><br/>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus aliquam et elementum duis sit amet aliquam eget. In vulputate at sollicitudin habitant. Sed ut egestas pellentesque sit faucibus. Sit mus suspendisse in massa. Ut maecenas eget lorem quam metus sit phasellus ut.</p><br/>
-                                <p class="text-primary">Speaker Pronojit Kumar Das</p>
+                        <div class="highlights">
+                            <a data-toggle="collapse" href="#collapseExample" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                <div class="highlights_components">
+                                    <p>DAY 1 HALL 1 - Lesson 1</p>
+                                    <p class="span">08:00am - 10:00pm</p>
+                                    <!-- <img src="./image/hightlights_arrow.png" alt=""> -->
+                                </div>
+                            </a>
+                            <div class="collapse" id="collapseExample">
+                                <div class="highlights_collapse_component">
+                                    <div class="event_content col-md-12">
+                                        <img src="./image/faculty_member_person.png" alt="./image/faculty_member_person.png">
+                                        <div class="schedule">
+                                            <p class="text-primary">08:00am - 10:00pm</p><br/>
+                                            <p class="mb-2">Title</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus aliquam et elementum duis sit amet aliquam eget. In vulputate at sollicitudin habitant. Sed ut egestas pellentesque sit faucibus. Sit mus suspendisse in massa. Ut maecenas eget lorem quam metus sit phasellus ut.</p><br/>
+                                            <p class="text-primary">Speaker Pronojit Kumar Das</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
                             </div>
-                       </div>
-                     </div>
-                     
-                      </div>
+    
+                            
+    
+    
+                            <a data-toggle="collapse" href="#collapseExample2" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                <div class="highlights_components">
+                                    <p>DAY 2 HALL 1 - Lesson 2</p>
+                                    <p class="span">08:00am - 10:00pm</p>
+                                    
+                                </div>
+                            </a>
+                            <div class="collapse" id="collapseExample2">
+                                <div class="highlights_collapse_component">
+                                    <div class="event_content col-md-12">
+                                        <img src="./image/faculty_member_person.png" alt="./image/faculty_member_person.png">
+                                        <div class="schedule">
+                                            <p class="text-primary">08:00am - 10:00pm</p><br/>
+                                            <p class="mb-2">Title</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus aliquam et elementum duis sit amet aliquam eget. In vulputate at sollicitudin habitant. Sed ut egestas pellentesque sit faucibus. Sit mus suspendisse in massa. Ut maecenas eget lorem quam metus sit phasellus ut.</p><br/>
+                                            <p class="text-primary">Speaker Pronojit Kumar Das</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                       
+                    </div>
                 </div>
                 
             
@@ -426,7 +823,7 @@
         </div>
     </div>
 </section>
-<!-- facilty end  -->
+<!-- Event Schedule end  -->
 
 
 
@@ -486,7 +883,7 @@
                 
 
     
-    <section class="conference_vetenary">
+    <!-- <section class="conference_vetenary">
         <div class="row justify-content-center">
 
             <div class="col-md-7">
@@ -500,11 +897,218 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- green campus end  -->
 
 
- <!-- affiliation start  -->
+ 
+<!-- testimonial start  -->
+<section class="testimonial">
+    <div class="testimonial_main">
+        <p class="testimonial_main_p1">Testimonial from International Students</p>
+        <div class="col-12 testimonial_slider_div">
+            <div class="testimonial_slider">
+                <div class="testimonial_slider_main">
+                    <img src="./image/testimonial_img1.png" alt="">
+                    <p class="testimonial_slider_main_p1">Md. Ahsan Faruque</p>
+                    <p class="testimonial_slider_main_p2">Senior Designer @ Macrocial</p>
+                    <p class="testimonial_slider_main_p3"> “ Besides, a plan is underway to introduce an internship in
+                        the course curriculum of the faculty to assist students in their career development through real
+                        work experiences that provide the opportunities to explore their interests and advance
+                        professional skills and capabilities “</p>
+                </div>
+                <div class="testimonial_slider_main">
+                    <img src="./image/testimonial_img1.png" alt="">
+                    <p class="testimonial_slider_main_p1">Md. Ahsan Faruque</p>
+                    <p class="testimonial_slider_main_p2">Senior Designer @ Macrocial</p>
+                    <p class="testimonial_slider_main_p3"> “ Besides, a plan is underway to introduce an internship in
+                        the course curriculum of the faculty to assist students in their career development through real
+                        work experiences that provide the opportunities to explore their interests and advance
+                        professional skills and capabilities “</p>
+                </div>
+                <div class="testimonial_slider_main">
+                    <img src="./image/testimonial_img1.png" alt="">
+                    <p class="testimonial_slider_main_p1">Md. Ahsan Faruque</p>
+                    <p class="testimonial_slider_main_p2">Senior Designer @ Macrocial</p>
+                    <p class="testimonial_slider_main_p3"> “ Besides, a plan is underway to introduce an internship in
+                        the course curriculum of the faculty to assist students in their career development through real
+                        work experiences that provide the opportunities to explore their interests and advance
+                        professional skills and capabilities “</p>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    <div class="arrow_btn">
+        <div class="arrow_prev">
+            <span><img src="./image/inter_left_arrow.png"></span>
+        </div>
+        <div class="arrow_next">
+            <span><img src="./image/inter_right_arrow.png"></span>
+        </div>
+    </div>
+       
+</section>
+<!-- testimonial end -->
+
+    <!-- Event Faq start  -->
+    <section class="faculty" id="faculty">
+        <div class="faculty_main container">
+            <div class="row faculty_main_row">
+                <div class="col-md-12 event_faq_p">
+                    <p>	<span>EVENT FAQS</span> / find your answers</p>
+                </div>
+                    <div class="personal_information_left col-md-6">
+                        <div class="tablinks_event" onclick='tabclick(event, "slide1")' id="defaultOpent"><i class="fas fa-chevron-right"></i><a href="javascript:void(0)">Overview</a></div>
+                        <div class="tablinks_event" onclick='tabclick(event, "slide2")' ><i class="fas fa-chevron-right"></i><a href="javascript:void(0)">Academic Notice</a></div>
+                        <div class="tablinks_event" ><i class="fas fa-chevron-right"></i><a href="javascript:void(0)">Administrative Notice</a></div>
+                        <div class="tablinks_event"><i class="fas fa-chevron-right"></i><a href="javascript:void(0)">Result</a></div>
+                        <!-- <div class=""><button href="#">NOC/GO</button></div>
+                        <div class=""><button href="#">Jobs</button></div>
+                        <div class=""><button href="#">Tender</button></div> -->
+                    </div>
+                    <div class="mt-4 col-md-6 mb-5">
+                        <div id="slide1" class="slide tabcontent_event actv">
+                           <div>
+                            <p>Vestibulum sit amet tincidunt urna, eget ullamcorper purus. Aenean feugiat quis tortor vitae fringilla. Pellentesque augue nisl, condimentum at sem et, fermentum varius ligula. Nulla dignissim nulla eget congue cursus.</p>
+                           </div>
+                            <div class="fontawasome">
+                                <div>
+                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                </div>
+                                <div>
+                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                </div>
+                            </div>
+                        </div>
+                       
+                        <div id="slide2" class="slide tabcontent_event">
+                            <div>
+                                <p>Vestibulum sit amet tincidunt urna, eget ullamcorper purus. Aenean feugiat quis tortor vitae fringilla. Pellentesque augue nisl, condimentum at sem et, fermentum varius ligula. Nulla dignissim nulla eget congue cursus.</p>
+                               </div>
+                                <div class="fontawasome">
+                                    <div>
+                                        <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                        <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                        
+                                    </div>
+                                    <div>
+                                        <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                        <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
+                                        
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Evemt Faq end  -->
+    <!-- Member Start -->
+    <!--- Member End -->
+   <div class="container">
+       <div class="row">
+        <div class="faculty_member_person_top col-md-4">
+            <div class="library_person_single">
+                <div class="library_person_single_img">
+                    <img src="./image/library_teacher1.png" alt="">
+                </div>
+                <div class="t_details">
+                    <p class="faculty_name_person">Ahsan Faruque</p>
+                    <p class="faculty_name_position">Senior Designer</p>
+                    <a href="#"  class="faculty_name_btn">
+                        View Profile
+                     </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faculty_member_person_top col-md-4">
+            <div class="library_person_single">
+                <div class="library_person_single_img">
+                    <img src="./image/library_teacher1.png" alt="">
+                </div>
+                <div class="t_details">
+                    <p class="faculty_name_person">Ahsan Faruque</p>
+                    <p class="faculty_name_position">Senior Designer</p>
+                    <a href="#"  class="faculty_name_btn">
+                        View Profile
+                     </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faculty_member_person_top col-md-4">
+            <div class="library_person_single">
+                <div class="library_person_single_img">
+                    <img src="./image/library_teacher1.png" alt="">
+                </div>
+                <div class="t_details">
+                    <p class="faculty_name_person">Ahsan Faruque</p>
+                    <p class="faculty_name_position">Senior Designer</p>
+                    <a href="#"  class="faculty_name_btn">
+                        View Profile
+                     </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faculty_member_person_top col-md-4">
+            <div class="library_person_single">
+                <div class="library_person_single_img">
+                    <img src="./image/library_teacher1.png" alt="">
+                </div>
+                <div class="t_details">
+                    <p class="faculty_name_person">Ahsan Faruque</p>
+                    <p class="faculty_name_position">Senior Designer</p>
+                    <a href="#"  class="faculty_name_btn">
+                        View Profile
+                     </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faculty_member_person_top col-md-4">
+            <div class="library_person_single">
+                <div class="library_person_single_img">
+                    <img src="./image/library_teacher1.png" alt="">
+                </div>
+                <div class="t_details">
+                    <p class="faculty_name_person">Ahsan Faruque</p>
+                    <p class="faculty_name_position">Senior Designer</p>
+                    <a href="#"  class="faculty_name_btn">
+                        View Profile
+                     </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="faculty_member_person_top col-md-4">
+            <div class="library_person_single">
+                <div class="library_person_single_img">
+                    <img src="./image/library_teacher1.png" alt="">
+                </div>
+                <div class="t_details">
+                    <p class="faculty_name_person">Ahsan Faruque</p>
+                    <p class="faculty_name_position">Senior Designer</p>
+                    <a href="#"  class="faculty_name_btn">
+                        View Profile
+                     </a>
+                </div>
+                
+            </div>
+        </div>
+       
+       </div>
+   </div>
+    <!-- affiliation start  -->
 
  <section class="affilition">
     <div class="afflition_main container">
@@ -562,113 +1166,6 @@
 </section>
 
 <!-- affiliation end  -->
-<!-- testimonial start  -->
-<section class="testimonial">
-    <div class="testimonial_main">
-        <p class="testimonial_main_p1">Testimonial from International Students</p>
-        <div class="col-12 testimonial_slider_div">
-            <div class="testimonial_slider">
-                <div class="testimonial_slider_main">
-                    <img src="./image/testimonial_img1.png" alt="">
-                    <p class="testimonial_slider_main_p1">Md. Ahsan Faruque</p>
-                    <p class="testimonial_slider_main_p2">Senior Designer @ Macrocial</p>
-                    <p class="testimonial_slider_main_p3"> “ Besides, a plan is underway to introduce an internship in
-                        the course curriculum of the faculty to assist students in their career development through real
-                        work experiences that provide the opportunities to explore their interests and advance
-                        professional skills and capabilities “</p>
-                </div>
-                <div class="testimonial_slider_main">
-                    <img src="./image/testimonial_img1.png" alt="">
-                    <p class="testimonial_slider_main_p1">Md. Ahsan Faruque</p>
-                    <p class="testimonial_slider_main_p2">Senior Designer @ Macrocial</p>
-                    <p class="testimonial_slider_main_p3"> “ Besides, a plan is underway to introduce an internship in
-                        the course curriculum of the faculty to assist students in their career development through real
-                        work experiences that provide the opportunities to explore their interests and advance
-                        professional skills and capabilities “</p>
-                </div>
-                <div class="testimonial_slider_main">
-                    <img src="./image/testimonial_img1.png" alt="">
-                    <p class="testimonial_slider_main_p1">Md. Ahsan Faruque</p>
-                    <p class="testimonial_slider_main_p2">Senior Designer @ Macrocial</p>
-                    <p class="testimonial_slider_main_p3"> “ Besides, a plan is underway to introduce an internship in
-                        the course curriculum of the faculty to assist students in their career development through real
-                        work experiences that provide the opportunities to explore their interests and advance
-                        professional skills and capabilities “</p>
-                </div>
-            </div>
-            
-        </div>
-        
-            <div class="home_arrow_prev">
-                <span><img src="./image/inter_left_arrow.png"></span>
-            </div>
-            <div class="home_arrow_next">
-                <span><img src="./image/inter_right_arrow.png"></span>
-            </div>
-    </div>
-</section>
-<!-- testimonial end -->
-
-    <!-- Event Faq start  -->
-    <section class="faculty" id="faculty">
-        <div class="faculty_main container">
-            <div class="row faculty_main_row">
-                <div class="col-md-12 event_faq_p">
-                    <p>	<span>EVENT FAQS</span> / find your answers</p>
-                </div>
-                    <div class="personal_information_left col-md-6">
-                        <div class="tablinks actve" onclick="tab(event, 'slide1')" id="defaultOpen"><i class="fas fa-chevron-right"></i><button href="#">Overview</button></div>
-                        <div class="tablinks" onclick="tab(event, 'slide2')"><i class="fas fa-chevron-right"></i><button href="#">Academic Notice</button></div>
-                        <div class="tablinks" ><i class="fas fa-chevron-right"></i><button href="#">Administrative Notice</button></div>
-                        <div class="tablinks"><i class="fas fa-chevron-right"></i><button href="#">Result</button></div>
-                        <!-- <div class=""><button href="#">NOC/GO</button></div>
-                        <div class=""><button href="#">Jobs</button></div>
-                        <div class=""><button href="#">Tender</button></div> -->
-                    </div>
-                    <div class="mt-4 col-md-6">
-                        <div id="slide1" class="slide tabcontent active">
-                           <div>
-                            <p>Vestibulum sit amet tincidunt urna, eget ullamcorper purus. Aenean feugiat quis tortor vitae fringilla. Pellentesque augue nisl, condimentum at sem et, fermentum varius ligula. Nulla dignissim nulla eget congue cursus.</p>
-                           </div>
-                            <div class="fontawasome">
-                                <div>
-                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
-                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
-                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
-                                </div>
-                                <div>
-                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
-                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
-                                    <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
-                                </div>
-                            </div>
-                        </div>
-                       
-                        <div id="slide2" class="slide tabcontent">
-                            <div>
-                                <p>Vestibulum sit amet tincidunt urna, eget ullamcorper purus. Aenean feugiat quis tortor vitae fringilla. Pellentesque augue nisl, condimentum at sem et, fermentum varius ligula. Nulla dignissim nulla eget congue cursus.</p>
-                               </div>
-                                <div class="fontawasome">
-                                    <div>
-                                        <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
-                                        <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
-                                        
-                                    </div>
-                                    <div>
-                                        <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
-                                        <li> <i class="far fa-check-circle"></i>First Awesome Feature</li>
-                                        
-                                    </div>
-                                </div>
-                        </div>
-                    </div>
-                    
-                
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Evemt Faq end  -->
 
 
 
@@ -802,38 +1299,17 @@
 
 
 
-    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script> -->
+   
 
     <script src="./js/jqury/jqury.min.js"></script>
     <!-- Countdown Timer -->
     <script src="js/jquery.countdown.js"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script> -->
- <script src="./bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
-    <!-- javascript start 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/js/bootstrap.min.js"
-        integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
-
-    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
-        <script src="./slick1/slick.js"></script>
-        <script src="./slick/slick.js"></script>
+    <script src="./bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
+    <!-- javascript start -->
+    <script src="./slick1/slick.js"></script>
+    <!-- Plugins -->
+    <script src="./JSF/plugins.js"></script>
+    <script src="./JSF/main.js"></script>
     <!-- magnetic popup  -->
     <script src="./js/magnetic popup.min.js"></script>
     <script type="text/javascript">
@@ -962,18 +1438,7 @@
             element.className = arr1.join(" ");
         }
 
-        // var eventbtnContainer = document.getElementById("eventmyBtnContainer");
-        // var eventbtns = eventbtnContainer.getElementsByClassName("event_btn");
-        // for (var i = 0; i < eventbtns.length; i++) {
-        //     eventbtns[i].addEventListener("click", function () {
-        //         var eventcurrent = document.getElementsByClassName("eventactive");
-        //         eventcurrent[0].className = eventcurrent[0].className.replace(" eventactive", "");
-        //         this.className += " eventactive";
-        //     });
-        // }
-
-
-
+      
 
 
         filterSelection("admission_filter")
@@ -1011,38 +1476,16 @@
             element.className = arr1.join(" ");
         }
 
-        // var btnContainer = document.getElementById("myBtnContainer");
-        // var btns = btnContainer.getElementsByClassName("admission_btn");
-        // for (var i = 0; i < btns.length; i++) {
-        //     btns[i].addEventListener("click", function () {
-        //         var current = document.getElementsByClassName("active");
-        //         current[0].className = current[0].className.replace(" active", "");
-        //         this.className += " active";
-        //     });
-        // }
+      
 
-        function tab(evt, para) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
-            }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            
-            // evt.currentTarget.className += " active";
-            document.getElementById(para).style.display = "block";
-            evt.currentTarget.className += " active";
-
-        }
-
+       
+        
+        
         // slick slider
         $(function () {
             $('.testimonial_slider').slick({
-                prevArrow: '.home_arrow_prev',
-                nextArrow: '.home_arrow_next',
+                prevArrow: '.arrow_prev',
+                nextArrow: '.arrow_next',
                 dots: false,
                 arrows: true,
                 infinite: true,
@@ -1114,7 +1557,7 @@
                 ]
             });
         })
-
+        // Event Schedule 
         function tab(evt, para) {
             var i, tabcontent, tablinks;
             tabcontent = document.getElementsByClassName("tabcontent");
@@ -1123,7 +1566,27 @@
             }
             tablinks = document.getElementsByClassName("tablinks");
             for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" actve", "");
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            
+            // evt.currentTarget.className += " active";
+            document.getElementById(para).style.display = "block";
+            evt.currentTarget.className += " active";
+
+        }
+        document.getElementById("defaultOpen").click();
+        
+        
+        // Event Faqs
+        function tabclick(evt, para) {
+            var i, tabcontents, tablink;
+            tabcontents = document.getElementsByClassName("tabcontent_event");
+            for (i = 0; i < tabcontents.length; i++) {
+                tabcontents[i].style.display = "none";
+            }
+            tablink = document.getElementsByClassName("tablinks_event");
+            for (i = 0; i < tablink.length; i++) {
+                tablink[i].className = tablink[i].className.replace(" actve", "");
             }
             
             // evt.currentTarget.className += " active";
@@ -1131,6 +1594,7 @@
             evt.currentTarget.className += " actve";
 
         }
+        document.getElementById("defaultOpent").click();
 
 
         // Countdown Timer
